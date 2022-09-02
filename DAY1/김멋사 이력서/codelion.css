@@ -1,0 +1,88 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.namebox{
+    text-align: right;
+    margin-right: 40px;
+}
+
+.namebox_name{
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.namebox_job{
+    font-size: 20px;
+    font-weight: bold;
+    color: #757575;
+    margin-top: 10px;
+}
+
+.aboutme{
+    margin: 30px;
+}
+
+h2{
+    border-bottom: 2px solid #f0eded;
+    padding-bottom: 10px;
+    font-weight: normal;
+    color: #a8a8a8;
+    font-size: 30px
+}
+
+.aboutme_text{
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+section{
+    margin: 30px;
+}
+
+.title{
+    font-weight: bold;
+    float: left;
+}
+
+.year{
+    font-weight: bold;
+    float: right;
+}
+
+.box{
+    overflow:hidden;
+}
+
+.subtitle{
+    padding-top: 20px;
+}
+
+.desc-text{
+    padding: 6px 0 0 30px;
+    font-weight: ligter;
+    font-size: 15px;
+    color:#666666;
+}
+article{
+    padding: 20px 0;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 5px;
+}
+
+#facebook_logo{
+    width: 40px;
+    height: 40px;
+    margin: 0 20px 5px 0;
+}
+
