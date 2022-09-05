@@ -1,0 +1,103 @@
+/* RESET */
+h1, h2{
+    font-size: initial;
+    font-weight: initial;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    padding-left:0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: initial;
+}
+
+
+/* components */
+.wrapper{
+    background-color: #ddd; 
+}
+
+.header{
+    background-image:url(images/cover02.png);
+    background-size: cover;
+    text-align: center;
+    padding: 80px;
+}
+
+.profile_image{
+    border-radius: 50%;
+    border: 8px solid white;
+    width: 130px;
+}
+
+.profile_name{
+    font-size: 90px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.profile_job{
+    font-size: 20px;
+    color: white;
+    border-top: 8px solid white;
+    width: fit-content;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+
+.section{
+    padding: 0;
+}
+.information, .skills{
+    background-color: white;
+    margin : 0 20px;
+    padding: 20px;
+    
+}
+.information{
+    background-image:url(images/icon-information.png);
+    background-repeat:no-repeat;
+    background-position: right 30px center;
+    margin-top:20px;
+}
+.skills{
+    background-image:url(images/icon-skills.png);
+    background-repeat:no-repeat;
+    background-position: right 30px center;
+    margin: 20px;
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+
+
+.footer{
+    background-color: #eee;
+    text-align: center;
+}
+.link{
+    border-radius: 40px;
+    border: 3px solid;
+    padding: 7px 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px 0;
+}
+.link.Facebook{
+    color:dodgerblue;
+}
+.link.Contact{
+    color:violet;
+}
+
