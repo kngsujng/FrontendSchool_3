@@ -1,0 +1,48 @@
+/*Reset*/
+body{
+    margin:initial;
+}
+h1, p{
+    font-size:inherit;
+    font-weight: inherit;
+    margin:initial;
+    padding: 0;
+}
+
+/*Components*/
+body{
+    background-image:url(images/bg.png);
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+}
+.fox{
+    margin-top: 120px;
+}
+.animalbox{
+    background-image: url(images/green.png);
+    background-repeat: no-repeat;
+    background-color:#93572e;
+    text-align: left;
+    width: 300px;
+    margin: auto;
+    color:#fff;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 10px #493322;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.name{
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.desc{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+
