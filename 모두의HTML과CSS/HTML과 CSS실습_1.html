@@ -8,7 +8,9 @@
 </head>
 <body>
     <header>
-        <h1>모두의 HTML/CSS</h1>
+        <h1>
+            <img src="" alt="모두의 HTML/CSS">
+        </h1>
         <nav>
             <ul>
                 <li>HOME</li>
@@ -17,31 +19,31 @@
                 <li>JavaScript</li>
             </ul>
         </nav>
-        <button>검색 버튼</button>
+        <article>
+            <h2>사이트내 검색</h2>
+            <form action="">
+                <input type="search">
+                <button type="submit">검색 실행</button>
+            </form>
+        </article>
     </header>
+    
     <main>
         <section>
-            <h2>인사 및 회원가입</h2>
-            <figure>
-                <img src="" alt="">
-                <figcaption>
-                    <p>모두의 HTML/CSS</p>
-                    <p>HELLO WORLD! :)</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    <p>Temporibus recusandae debitis exercitationem iure cupiditate facilis</p>
-                </figcaption>
+            <img src="" alt="">
+            <h2>모두의 HTML/CSS</h2>
+            <strong>HELLO WORLD! :)</strong>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                <p>Temporibus recusandae debitis exercitationem iure cupiditate facilis</p>
                 <a href="">회원가입</a>
-                <button>BUTTON</button>
-            </figure>
+                <a href="">로그인</a>
             <aside>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption>MBTI 강의 보러가기</figcaption>
-                </figure>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption>30분 요약강좌 보러가기</figcaption>
-                </figure>
+                <a href="">
+                    <img src="" alt="MBTI 강의 보러가기">
+                </a>
+                <a href="">
+                    <img src="" alt="30분 요약강좌 보러가기">
+                </a>
             </aside>
         </section>
 
@@ -65,30 +67,30 @@
             <ol>
                 <li>
                     <figure>
-                        <img src="" alt="">
-                        <time>오전 5:00</time>
+                        <img src="" alt="땀흘리며 운동하는 뮤라">
                         <figcaption>
-                            <h3>헛둘셋넷 열심히 운동하기</h3>
+                            <time datetime="05:00">오전 5:00</time>
+                            <strong>헛둘셋넷 열심히 운동하기</strong>
                             <p>amet consectetur adipisicing elit.</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="" alt="">
-                        <time>오전 9:00</time>
+                        <img src="" alt="출근하다가 지렁이를 바라보는 소울곰">
                         <figcaption>
-                            <h3>지친몸 이끌고 출근하기</h3>
+                            <time datetime="09:00">오전 9:00</time>
+                            <strong>지친몸 이끌고 출근하기</stro>
                             <p>Lorem ipsum dolor sit.</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="" alt="">
-                        <time>오후 6:00</time>
+                        <img src="" alt="치킨을 손에 들고 퇴근하는 개리">
                         <figcaption>
-                            <h3>치킨과 함께하는 씐나는 퇴근</h2>
+                            <time datetime="06:00">오후 6:00</time>
+                            <strong>치킨과 함께하는 씐나는 퇴근</h2>
                             <p>Lorem ipsum dolor sit.</p>
                         </figcaption>
                     </figure>
@@ -99,73 +101,101 @@
         <section>
             <h2>Lorem ipsum dolor sit.</h2>
             <ol>
-                <li><button>Tab1</button></li>
-                <li><button>Tab2</button></li>
-                <li><button>Tab3</button></li>
+                <li><button type="button">Tab1</button></li>
+                <li><button type="button">Tab2</button></li>
+                <li><button type="button">Tab3</button></li>
             </ol>
+            <section>
+                <h3>Tab1의 데이터 목록</h3>
+                <ol reversed start="10">
+                    <li>
+                        <a href="">
+                            <span>10</span>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta architecto adipisci.<</p>
+                            <time datetime="2022-01-01">2022.01.01</time>
+                        </a> 
+                    </li>
+                    <li>
+                        <span>9</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <time datetime="2022-01-01">2022.01.01</time>
+                    </li>
+                    <li>
+                        <span>8</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <time datetime="2022-01-01">2022.01.01</time>
+                    </li>
+                    <li>
+                        <span>7</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem</p>
+                        <time datetime="2022-01-01">2022.01.01</time>
+                    </li>
+                    <li>
+                        <span>6</sp>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
+                        <time datetime="2022-01-01">2022.01.01</time>
+                    </li>
+                </ol>
+            </section>
             <a href="">more +</a>
-            <ol start="10" reversed>
-                <li>
-                    <span>10</span>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta architecto adipisci.</p>
-                    <span>N</span>
-                    <time datetime="2022-01-01">2022.01.01</time>
-                </li>
-                <li>
-                    <span>9</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <time datetime="2022-01-01">2022.01.01</time>
-                </li>
-                <li>
-                    <span>8</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <time datetime="2022-01-01">2022.01.01</time>
-                </li>
-                <li>
-                    <span>7</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem</p>
-                    <time datetime="2022-01-01">2022.01.01</time>
-                </li>
-                <li>
-                    <span>6</sp>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
-                    <time datetime="2022-01-01">2022.01.01</time>
-                </li>
-            </ol>
         </section>
         
         <section>
             <h2>Lorem ipsum dolor</h2>
             <article>
-                <img src="" alt="이전페이지로 이동">
-                <img src="" alt="다음페이지로 이동">
-                <figure>
-                    <img src="" alt="">
-                    <figcaption>
-                        <p></p>
-                        <p></p>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption>
-                        <p></p>
-                        <p></p>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption>
-                        <p></p>
-                        <p></p>
-                    </figcaption>
-                </figure>
-                첫번째 목록 indicator 
+                <h3>위니비언의 생활모습</h3>
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption>
+                                <em></em>
+                                <p></p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption>
+                                <em></em>
+                                <p></p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption>
+                                <em></em>
+                                <p></p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+                <button type="button">
+                    <img src="" alt="이전페이지로 이동">
+                </button>
+                <button type="button">
+                    <img src="" alt="다음페이지로 이동">
+                </button>
+                <ol>
+                    <li>
+                        <button type="button">1~3번째 슬라이드</button>
+                    </li>
+                    <li>
+                        <button type="button">1~3번째 슬라이드</button>
+                    </li>
+                    <li>
+                        <button type="button">1~3번째 슬라이드</button>
+                    </li>
+                </ol>
             </article>
         </section>
     </main>
 
     <footer>
+        <h2>사이트 및 회사정보</h2>
         <p>모두의 HTML/CSS</p>
         <address>
             <p>서울특별시 사랑시 고백구 행봉동 123-45 1층</p>
