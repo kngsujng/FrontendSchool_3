@@ -1,0 +1,119 @@
+/* Resets */
+h1,h2, p, header, section, image, body{
+    margin:0;
+    padding:0;
+}
+.hidden{
+    display: none;
+}
+/* Fonts */
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+/* Components */
+body{
+    background-color: #5b2386;
+}
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title_image{
+    display: inline-block;
+    width: 564px;
+    height: 112px;
+}
+.bg_clock{
+    display: inline-block;
+}
+.quote{
+    font-family: tvN Enjoystories;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F5DF4D;
+    margin-bottom: 78px;
+}
+.quote-desc > p{ 
+    font-family: Gmarket Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.quote-desc>p:last-child{
+    margin-bottom: 102px;
+}
+.quote-desc > p > strong{
+    font-family: Gmarket Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.cont-inp{
+    font-family: Gmarket Sans;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+.cont-inp > p{
+    margin-bottom: 27px;
+}
+.wannabe_input{
+    background-color:#fff;
+    border-radius: 7px;
+    border: none;
+    height: 57px;
+    margin: 0 17px 0; 
+    color: #babcbe;
+    font-size: 24px;
+    text-align: center;
+}
+.btn-exc{
+    width: 565px;
+    height: 66px;
+    background-color:#Fcee21;
+    border: none;
+    border-radius: 56px;
+    color: #5b2386;
+    font-family: 'Gmarket Sans';
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 147px;
+}
