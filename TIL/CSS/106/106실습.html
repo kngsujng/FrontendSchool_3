@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../104_reset.css">
+    <style>
+        article{
+            margin: 50px auto;
+            width: 200px;
+        }
+        .btn-select{
+            width: 100%;
+            padding: 11px 13px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: left;
+            border: 1px solid #9B51E0;
+            border-radius: 10px;
+            background: url(Polygon_down.png) no-repeat right 12px center;
+            /* background-color: #fff;
+            background-image: url(Polygon_down.png);
+            background-repeat: no-repeat;
+            background-position-x: 175px;
+            background-position-y: 15px; */
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .btn-select:focus{
+            outline: 3px solid #F8E4FF;
+        }
+        .btn-select.on{
+            background: url(Polygon_up.png) no-repeat right 12px center;
+        }
+        .list-language{
+            display: none; 
+            padding-left: 18px;
+            margin-top: 10px;
+            width: 200px;
+            height: 208px;
+            border: 1px solid #C4C4C4;
+            box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;    
+        }
+        .list-btn{
+            border: 0px;
+            border-radius: 8px;
+            height: 40px;
+            background-color: #fff;
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <article class="select">
+        <button class="btn-select">최애 프로그래밍 언어</button>
+        <ul class="list-language">
+            <li><button type="button" class="list-btn">Python</button></li>
+            <li><button type="button" class="list-btn">Java</button></li>
+            <li><button type="button" class="list-btn">JavaScript</button></li>
+            <li><button type="button" class="list-btn">C#</button></li>
+            <li><button type="button" class="list-btn">C/C++</button></li>
+        </ul>
+    </article>
+    <script>
+        const btn = document.querySelector('.btn-select');
+        const list = document.querySelector('.list-member');
+        btn.addEventListener('click', () => {
+            list.classList.toggle('on');
+            btn.classList.toggle('on');
+        });
+        list.addEventListener('click', (event) => {
+            if (event.target.nodeName === "BUTTON") {
+                btn.textContent = event.target.textContent;
+                list.classList.remove('on');
+            }
+        });
+    </script>
+</body>
+</html>

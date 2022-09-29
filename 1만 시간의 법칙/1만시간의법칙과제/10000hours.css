@@ -1,0 +1,210 @@
+/* Resets */
+h1,h2, p, header, section, image, body{
+    margin:0;
+    padding:0;
+}
+.screen_out {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+  }
+
+/* Fonts */
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+/* Components */
+body{
+    background-color: #5b2386;
+}
+.img-wrapper{
+    position: relative;
+    text-align: center;
+}
+.title_image{
+    position: relative; 
+    display: block;
+    margin: 194px auto 0;
+    width: 564px;
+    height: 112px;
+}
+.bg_clock{
+    position: absolute;
+    /* 
+    모르겠는 점  
+        1. 왜 비치는지 ?   : position: relative;
+        2. 마진 이렇게 주는거 아닌거 같은디 .........    
+        3. 마이너스 마진은 왜 안 개발자도구에 안 뜨나 
+    */
+    margin-left: -130px;
+    margin-top: -70px;
+}
+.quote-img{
+    display: block;
+    margin: auto;
+}
+/* 어떻게 내리니 ..... */
+.quote{
+    font-family: 'tvN Enjoystories';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F5DF4D;
+    margin: 125px auto 78px;
+}
+.quote-desc p{ 
+    font-family: 'Gmarket Sans';
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.quote-desc p:last-child{
+    margin-bottom: 102px;
+}
+/*  알게 된 점 : last-child는 진짜 마지막이어야 한다 아래에 p태그 아닌 다른 태그도 있으면 안됨 */
+.quote-desc strong{
+    font-family: Gmarket Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.cont-inp{
+    font-family: Gmarket Sans;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+.cont-inp p{
+    margin-bottom: 27px;
+}
+.wannabe_input{
+    background-color:#fff;
+    border-radius: 7px;
+    border: none;
+    width: 228px;
+    height: 57px;
+    margin: 0 17px; 
+    color: #babcbe;
+    font-size: 24px;
+    text-align: center;
+}
+.btn-exc{
+    margin-top: 115px;
+    width: 565px;
+    height: 66px;
+    left: 678px;
+    top: 1071px;
+    background-color:#Fcee21;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 56px;
+    color: #5b2386;
+    font-family: 'Gmarket Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 147px;  
+}
+.click-img{
+    display: inline-block;
+}
+/* 어떻게 움직이지 .. */
+.cont-result p{
+    text-align: center;
+    font-family: 'Gmarket Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+}
+.cont-result strong{
+    font-family: 'Gmarket Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+}
+.btn{
+    margin: 0 auto;
+    margin-top: 127px;
+    text-align: center;
+}
+.btn-go, .btn-share{
+    height: 66px;
+    color: #5B2386;
+    font-family: 'Gmarket Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 56px;
+}
+.btn-go{
+    width: 356px;
+    background: #FCEE21;
+    margin-right: 12px;
+}
+.btn-share{
+    width: 191px;
+    background: #FFFFFF;
+}
+.cont-footer{
+    margin-top: 130px;
+    text-align: center;
+}
+.logo-img{
+    margin: 0 auto 20px;
+    width: 125px;
+    height: 25px;
+}
+.txt-footer{
+    display: block;
+    color:#FFFFFF;
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 110px;
+}

@@ -1,0 +1,9 @@
+$kngsujng : 10;
+@while $kngsujng > 1{
+    $kngsujng : $kngsujng - 2;
+    .content-#{$kngsujng} {
+        width: 100px;
+        height: 100px;
+        background: red;
+    }
+}
