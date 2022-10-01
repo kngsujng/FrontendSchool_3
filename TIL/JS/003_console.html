@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script>
+        //console.log()
+        console.log("hello");
+        console.log("%chello world", "color:red;font-size:32px");
+
+        //console.dir()
+        //그냥 출력했을 때에는 알파벳 순, 순회(for)를 돌았을 때에는 순서보장 
+        let data = {
+            a : 10,
+            one:1,
+            two:2,
+            three:3,
+            c: 100,
+            b:3,
+        };
+        console.dir(data);
+
+        let data2 = [10, 20, 30];
+        console.dir(data2);
+
+
+        //console.info()
+        console.info("hello world");
+
+        //console.group()
+        //계층 구조  
+        console.group("팀원");
+        console.log("예리/팀원");
+        console.log("슬기/팀원");
+        console.log("웬디/팀원");
+        console.groupEnd();
+        console.group("팀장")
+        console.log("조이/팀장");
+        console.log("아이린/팀장");
+        console.groupEnd();
+
+        //console.table()
+        console.table(data);
+
+        //console.error()
+        console.error("error");
+        console.error("정신 차려잇!");
+
+
+        // console.warn();
+        console.warn("실행해줄게, 다만 경고문구는 읽어봐야 해");     
+    </script>
+</body>
+</html>
